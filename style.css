@@ -96,14 +96,16 @@ body {
 
 /* ========== NAME / HEADING ========== */
 .name {
-    font-family: var(--font-display);
-    font-weight: 700;
-    font-size: var(--font-size-display);
-    letter-spacing: var(--letter-spacing-display);
-    line-height: 0.95;
     text-align: center;
-    color: var(--text-primary);
-    text-transform: uppercase;
+}
+
+.logo {
+    max-width: 460px;
+    width: 100%;
+    height: auto;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
 }
 
 /* ========== DECORATIVE RULE ========== */
@@ -177,5 +179,9 @@ body {
     .rule {
         width: 40px;
         margin: var(--spacing-1) 0;
+    }
+
+    .logo {
+        max-width: 300px;
     }
 }
