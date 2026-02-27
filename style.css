@@ -128,14 +128,15 @@ body {
     padding: 12px 20px;
     border: 2px solid var(--text-primary);
     border-radius: var(--border-radius);
-    background: var(--white);
+    background: var(--yellow);
+    color: var(--white);
     box-shadow: 4px 4px 0 var(--text-primary);
     transition: all 0.1s ease;
     display: inline-block;
 }
 
 .contact a:hover {
-    background: var(--yellow);
+    font-weight: 700;
     transform: translate(-2px, -2px);
     box-shadow: 6px 6px 0 var(--text-primary);
 }
